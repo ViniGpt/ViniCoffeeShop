@@ -1,0 +1,64 @@
+﻿body {
+margin :20px;
+}
+.navlink{
+  margin-right: 10px;
+  font-size: 18px;
+  float: left;
+  padding-top: 7px;
+   padding-bottom: 7px;
+  color: #FFFFFF;
+  text-decoration: none;
+  font-weight: 600;
+
+}
+.ulNav {
+    background: linear-gradient(to right, #603813, #341c05);
+    border-radius: 10px;
+}
+    .ulNav li {
+        display: inline-block;
+     }
+        .ulNav li a {
+        text-decoration: none;
+        }
+.headerLogo
+  {
+  font-size: 40px;
+  font-family: headerfont;
+  color: #603813;
+  padding: 15px;
+  margin: 8px 0px;
+  font-weight: bold;
+  }
+.searchBox {
+float: right;
+width: 200px;
+margin-top: 22px;
+}
+#welcomeLogo {
+float:left;
+}
+#cotm {
+float:right;
+}
+#welcomeText {
+float:left;
+margin-top:20px;
+margin-bottom: 20px;
+-webkit-column-count:2;
+display:block;
+width: 70%
+}
+#welcomeText > header {
+  color: #603813;
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 3px;
+    }
+#events {
+  display: block;
+  float: right;
+  margin-right: 40px;
+  margin-top: 20px;
+}
