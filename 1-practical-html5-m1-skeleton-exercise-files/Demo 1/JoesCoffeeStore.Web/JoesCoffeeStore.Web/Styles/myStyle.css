@@ -1,0 +1,173 @@
+body{
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Verdana;
+}
+@font-face {
+    font-family: headerfont;
+    src: url('../fonts/Lobster_1.3.otf');
+}
+header{
+font-weight: bold;
+}
+.searchbox
+{
+float: right;
+width: 200px;
+height: 30px;
+border-radius: 10px;
+padding:5px;
+margin: 10px 10px;
+}
+#headerLogo
+{
+float: left;
+margin-right: 10px;
+}
+#headerLogo > img
+{ top: -10px;
+  position: relative;
+}
+#headername {
+    font-size: 40px;
+    font-family: headerfont;
+    color: #603813;
+    padding: 15px;
+    margin: 8px 0px;
+    font-weight: bold;
+    /*font-variant: small-caps;*/
+}
+
+nav {
+    height: 45px;
+    width: 100%;
+    /*background-color: #5c5045;*/
+    /*background: -webkit-linear-gradient(left, #603813, #341c05);*/ /* For Safari 5.1 to 6.0 */
+    /*background: -o-linear-gradient(right, #603813, #341c05);*/ /* For Opera 11.1 to 12.0 */
+    /*background: -moz-linear-gradient(right, #603813, #341c05);*/ /* For Firefox 3.6 to 15 */
+    /*background: linear-gradient(to right, #603813, #341c05);*/
+    margin-bottom: 5px;
+    margin-top: 20px;
+    padding-left: 5px;
+}
+
+    nav ul {
+        list-style: none;
+        padding: 0px;
+    }
+
+        nav ul li {
+            display: block;
+			float: left;
+			padding: 5px;
+			height: 35px;
+			margin-right: 10px;
+			font-size: 18px;
+        }
+
+#welcomeImage
+{
+float: left;
+width: 700px;
+}
+#cofeeofthemonth
+{
+float: right;
+width: 290px;
+}
+#headerDiv{
+  margin: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: beige;
+  height: 30px;
+}
+#welcometext > span
+{
+-webkit-column-count: 2;
+  float: left;
+  font-size: 12px;
+  width: 70%;
+}
+#events{
+float: right;
+width: 30%;
+margin-bottom: 20px;
+margin-top: 20px;
+}
+  #events > header {
+        margin-left: 10px;
+        color: #603813;
+        font-size: 15px;
+        margin-bottom: 3px;
+        font-weight: bold;
+    }
+#events > ul {
+        list-style: none;
+    }
+
+        #events > ul > li {
+            margin-bottom: 3px;
+        }
+#bestsellers {
+    height: 100%;
+    width: 700px;
+    float: left;
+    margin-bottom: 20px;
+}
+
+    #bestsellers > header {
+        color: #603813;
+        font-size: 15px;
+        font-weight: bold;
+    }
+.productarticle {
+    width: 200px;
+    float: left;
+    margin-left: 25px;
+    margin-bottom: 10px;
+}
+.productarticlethumbnail {
+    width: 100px;
+    height: 150px;
+}
+.productarticlename {
+    font-size: 15px;
+    color: #603813;
+    font-weight: bold;
+}
+
+.productarticleprice {
+    font-size: 15px;
+    color: green;
+    font-weight: bold;
+    padding-top: 15px;
+}
+.smalltext {
+    font-size: 10px;
+}
+.coffeebestsellers {
+    /*height: 30px;
+    line-height: 30px;*/
+    float: left;
+}
+
+    .coffeebestsellers > header {
+        background-color: #603813;
+		height: 30px;
+        line-height: 30px;
+        color: white;
+        padding-left: 10px;
+    }
+.accessoriesbestsellers {
+    clear: both;
+}
+
+    .accessoriesbestsellers > header {
+        height: 30px;
+        line-height: 30px;
+        background-color: #603813;
+        color: white;
+        padding-left: 10px;
+    }
